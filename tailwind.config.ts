@@ -31,6 +31,10 @@ export default {
       height: {
         'hug': '74px',
       },
+      fontFamily: {
+        montserrat: ['Montserrat', 'sans-serif'],
+        poppins: ['Poppins', 'sans-serif'],
+      },
     },
   },
   plugins: [],
