@@ -1,6 +1,5 @@
 import "./App.css";
-import React from "react";
-import AppRouter from "./AppRouter/AppRouter.tsx";
+import AppRouter from "./AppRouter/AppRouter";
 
 function App() {
   return (

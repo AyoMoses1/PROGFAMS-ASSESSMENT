@@ -1,10 +1,9 @@
-import React from "react";
 import Logo from "../../../src/assets/icons/Logo.svg";
 import { Link } from "react-router-dom";
 
 const Nav = () => {
   return (
-    <div className="bg-primary h-[10vh] flex gap-[400px] items-center px-[80px]">
+    <div className="bg-primary h-[10vh] flex gap-[400px] items-center px-[108px]">
       <img src={Logo} alt="Logo" className="" />
 
       <div>
