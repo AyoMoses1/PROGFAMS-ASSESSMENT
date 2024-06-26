@@ -3,6 +3,7 @@ import Footer from "../components/Footer/Footer";
 import bg from "assets/bg.jpeg";
 import image from "assets/2.png";
 import Button from 'components/Button/Button';
+import SectionOne from 'components/main2'
 
 
 const Home = () => {
@@ -33,7 +34,7 @@ const Home = () => {
             <img src={image} alt="hero-image" />
           </div>
         </div>
-        <h1 className="text-primary">Home</h1>
+        <SectionOne/>
       </main>
       <Footer />
     </div>
