@@ -4,6 +4,7 @@ import bg from "assets/bg.jpeg";
 import image from "assets/2.png";
 import Button from 'components/Button/Button';
 import SectionOne from 'components/main2'
+import Testimonials from 'components/Testimonials'
 
 
 const Home = () => {
@@ -35,6 +36,7 @@ const Home = () => {
           </div>
         </div>
         <SectionOne/>
+        <Testimonials/>
       </main>
       <Footer />
     </div>
