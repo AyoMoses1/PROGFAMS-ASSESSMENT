@@ -1,8 +1,10 @@
 import image from "assets/4.png";
-import Button from "components/Button/Medium";
 import Heading from "components/Heading";
 import Text from "components/Text";
-import { FaArrowCircleRight } from "react-icons/fa";
+import { FaArrowRight } from "react-icons/fa";
+import arrow1 from "assets/a1.svg"
+import arrow2 from "assets/a2.svg"
+
 
 const index = () => {
   return (
@@ -29,7 +31,7 @@ const index = () => {
       <div className="grid grid-cols-2 gap-[76px] mt-[60px]">
         <div className="py-[46px]">
           <Text
-            fontWeight={300}
+            fontWeight={400}
             fontSize="28px"
             textColor={"#000000"}
             lineHeight={"44px"}
@@ -66,13 +68,10 @@ const index = () => {
           >
             United Arab Emirate
           </Text>
-          <Button
-            textColor={"#072951"}
-            className={"flex align items-center gap-[14px] px-0"}
-          >
-            <FaArrowCircleRight color={"#072951"} />
-            More Details
-          </Button>
+          <div className="flex justify-between w-[159px]">
+            <img src={arrow2}/>
+            <img src={arrow1}/>
+          </div>
         </div>
         <img src={image} />
       </div>
