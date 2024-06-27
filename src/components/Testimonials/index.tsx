@@ -1,7 +1,6 @@
 import image from "assets/4.png";
 import Heading from "components/Heading";
 import Text from "components/Text";
-import { FaArrowRight } from "react-icons/fa";
 import arrow1 from "assets/a1.svg"
 import arrow2 from "assets/a2.svg"
 

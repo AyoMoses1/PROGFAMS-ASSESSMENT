@@ -1,5 +1,9 @@
 import React from "react";
 import Text from "components/Text";
+import { FaFacebook, FaLinkedin, FaTwitter } from "react-icons/fa";
+import icon1 from "assets/icon1.svg"
+import icon2 from "assets/icon2.svg"
+import icon3 from "assets/icon3.svg"
 
 const Footer: React.FC = () => {
   return (
@@ -78,6 +82,11 @@ const Footer: React.FC = () => {
             10B, Harmony Close, <br />
             Ikeja, Lagos.
           </p>
+          <div className="flex mt-[24.5px] gap-[12px]">
+            <img src={icon1}/>
+            <img src={icon2}/>
+            <img src={icon3}/>
+          </div>
         </div>
       </div>
     </footer>
