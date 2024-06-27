@@ -1,7 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center" font-size="30px">
-  <h3><b>Event Connect</b></h3>
+  <h3><b>Progfams Assessment</b></h3>
 </div>
 
 # 📗 Table of Contents
@@ -31,64 +31,26 @@
 
 <a name="about-project"></a>
 
-**Event Connect** is an application which allows users to create,delete and reserve event. A user also can reserve available event.
-
-## Front End app <a name="front-end-repo"></a>
-
-- Click this [link](https://github.com/RitaDee/event_connect_client) to access the front end app that was built using react.
-
-- Click this [link](https://github.com/RitaDee/event_connect_client/pull/8) to access the front end app pull request.
-
-### Kanban Board
-
-- Click this [link](https://github.com/users/RitaDee/projects/12)
-- Click this [link](<Screenshot (438).png>) to view the initial screenshot of the project Kanban Board.
-
-### Team members: 4 (Rita Daniel, Jugoslav Achkoski, Ayo Moses, Lukman Abdulkareem)
+**Progfams Assessment** is an application which was build using react and typescript
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- Ruby on Rails
+- React
+- TypeScript
 - VSCode
-- Rubocop
-- PostgreSQL
-
-### Tech Stack <a name="tech-stack"></a>
-
-<details>
-  <summary>Linters</summary>
-  <ul>
-  <li>Rubocop</li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-  <li>Ruby</li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-  <li>PostgreSQL</li>
-  </ul>
-</details>
 
 ### Key Features <a name="key-features"></a>
 
-- **list of available cabs on home page**
-- **Ability to create a cab**
-- **Ability to create and list all the reservations that a user has**
+- **Home Page**
+- **Boot Camp Page**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Click Here!!!](https://event-connect-capstone.web.app/)
+- [Click Here!!!](https://main--progfams-assessment.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,7 +66,7 @@ Clone this repository to your desired folder:
 
 ```sh
   cd PATH
-  git clone git@github.com:RitaDee/event_connect.git
+  git clone https://github.com/AyoMoses1/progfams-assessment.git
 ```
 
 ### Install
@@ -112,18 +74,8 @@ Clone this repository to your desired folder:
 Install this project with:
 
 ```sh
-  cd event_connect
-  bundle install
-```
-
-### Create database
-
-To run tests, run the following command:
-
-```sh
-  rails db:create
-  rails db:migrate
-  rails db:seed
+  cd progfams-assessment
+  npm install
 ```
 
 ### Usage
@@ -131,26 +83,12 @@ To run tests, run the following command:
 To run the project, execute the following command:
 
 ```sh
-  rails server
-```
-
-### Run tests
-
-To run tests, run the following command:
-
-```sh
-  rspec ./spec/models
+  npm run dev
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 👥 Authors <a name="authors"></a>
-
-👤**Rita Nkem Daniel**
-
-- GitHub: [@RitaDee](https://github.com/RitaDee)
-- Twitter: [@durdana_dee](https:https://twitter.com/durdana_dee)
-- LinkedIn: [LinkedIn](https:https://www.linkedin.com/in/rita-daniel/)
+## 👥 Author <a name="author"></a>
 
 👤**Ayo Moses**
 
@@ -158,50 +96,21 @@ To run tests, run the following command:
 - Twitter: [@AyoMoses](https://twitter.com/Ayo_Moses1)
 - LinkedIn: [Ayo Moses](https://www.linkedin.com/in/ayomoses/)
 
-👤 **Jugoslav Achkoski**
-
-- GitHub: [@github](https://github.com/jugosack)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jugoslavachkoski/)
-- Twitter: [twitter](https://twitter.com/Jugoslav_A)
-
-👤 **Lukman Abdulkarim**
-
-- GitHub: [@Lukman](https://github.com/lukman155)
-- Twitter: [@Luk, A man](https://twitter.com/lukmanabdulka18)
-- LinkedIn: [Lukman Abdulkarim](https://www.linkedin.com/in/lukmanbaba/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🔭 Future Features <a name="future-features"></a>
-
-- **Add payment feature where users can pay for their resevations and bookings**
-- **Add chatting feature among users**
-- **Add tracking feature where users can see where their cab is located**
-- **Add user profile page**
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/RitaDee/event_connect_client/issues).
+Feel free to check the [issues page](https://github.com/AyoMoses1/progfams-assessment.git/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project kindly give it a star ⭐️
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-I would like to thank...
-
-- [Microverse](https://www.microverse.org/) for learning the oppotunity
-
-- [Murat Korkmaz](https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign) for the design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
