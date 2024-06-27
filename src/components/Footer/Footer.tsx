@@ -50,7 +50,7 @@ const Footer: React.FC = () => {
             </a>
           </li>
           <li className="mb-[50px]">
-            <a href="#" className="hover:underline">
+            <a href="/bootcamp" className="hover:underline">
               Boot Camp
             </a>
           </li>

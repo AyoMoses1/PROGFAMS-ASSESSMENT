@@ -24,7 +24,7 @@ const index = () => {
           Subscribe to our newsletters and stay up to date on features and
           releases.
         </Text>
-        <div className="flex items-center border border-gray-300 rounded-md overflow-hidden w-[590px] mx-auto py-[6.5px] pl-[40px] pr-[7px] rounded-[50px]">
+        <div className="flex items-center border-[2px] border-[#000000] rounded-md overflow-hidden w-[590px] mx-auto py-[6.5px] pl-[40px] pr-[7px] rounded-[50px]">
           <input
             type="email"
             placeholder="Enter your email"
