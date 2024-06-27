@@ -55,6 +55,8 @@ const index = () => {
             fontSize="24px"
             textColor={"#000000"}
             lineHeight={"29.26px"}
+            mb={"6px"}
+            mt={"4px"}
           >
             Founder, Justwear
           </Text>
