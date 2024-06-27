@@ -5,6 +5,7 @@ import image from "assets/2.png";
 import Button from 'components/Button/Button';
 import SectionOne from 'components/main2'
 import Testimonials from 'components/Testimonials'
+import Email from 'components/Email'
 
 
 const Home = () => {
@@ -37,6 +38,7 @@ const Home = () => {
         </div>
         <SectionOne/>
         <Testimonials/>
+        <Email/>
       </main>
       <Footer />
     </div>

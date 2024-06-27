@@ -6,7 +6,7 @@ import { FaArrowCircleRight } from "react-icons/fa";
 
 const index = () => {
   return (
-    <div className={"bg-[#4393D840] pl-[86px] pr-[100px] py-[97px] my-[104px]"}>
+    <div className={"bg-[#4393D840] pl-[86px] pr-[100px] py-[97px] mt-[104px]"}>
       <div className="w-[503px]">
         <Text
           fontWeight={500}

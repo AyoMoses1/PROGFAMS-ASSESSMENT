@@ -1,38 +1,87 @@
-import React from 'react';
+import React from "react";
+import Text from "components/Text";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="bg-primary text-white py-8">
+    <footer className="bg-primary text-white py-8 pb-[160px] pt-[67.5px] flex gap-[120.25px] pl-[113px] pr-[78.5px]">
+      <div className="flex-col items-center col-span-2">
+        <span className="font-poppins font-bold text-6xl leading-tight">
+          LOGO
+        </span>
+        <Text
+          fontWeight={300}
+          fontSize="18px"
+          textColor={"white"}
+          lineHeight={"21.94px"}
+          mb={"12px"}
+        >
+          Subscribe to our newsletters and stay up to date on features and
+          releases.
+        </Text>
+        <p className="font-500 text-[18px]">Copyrights @ Progfams 2024</p>
+      </div>
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-4 gap-8">
-        <div className="flex items-center justify-center md:justify-start">
-        <span className="font-poppins font-bold text-6xl leading-tight">LOGO</span>        </div>
         <div>
-          <h5 className="font-bold mb-4">Column 1</h5>
           <ul>
-            <li className="mb-2"><a href="#" className="hover:underline">Link 1</a></li>
-            <li className="mb-2"><a href="#" className="hover:underline">Link 2</a></li>
-            <li className="mb-2"><a href="#" className="hover:underline">Link 3</a></li>
+            <li className="mb-[50px]">
+              <a href="#" className="hover:underline">
+                Home
+              </a>
+            </li>
+            <li className="mb-[50px]">
+              <a href="#" className="hover:underline">
+                About Us
+              </a>
+            </li>
+            <li className="mb-2">
+              <a href="#" className="hover:underline">
+                Service
+              </a>
+            </li>
           </ul>
         </div>
+        <ul>
+          <li className="mb-[50px]">
+            <a href="#" className="hover:underline">
+              Works
+            </a>
+          </li>
+          <li className="mb-[50px]">
+            <a href="#" className="hover:underline">
+              Boot Camp
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li className="mb-[50px]">
+            <a href="#" className="hover:underline">
+              Consultation
+            </a>
+          </li>
+          <li className="mb-2">
+            <a href="#" className="hover:underline">
+              Blog
+            </a>
+          </li>
+        </ul>
         <div>
-          <h5 className="font-bold mb-4">Column 2</h5>
           <ul>
-            <li className="mb-2"><a href="#" className="hover:underline">Link 1</a></li>
-            <li className="mb-2"><a href="#" className="hover:underline">Link 2</a></li>
-            <li className="mb-2"><a href="#" className="hover:underline">Link 3</a></li>
+            <li className="mb-[25px]">
+              <a href="#" className="hover:underline">
+                Contact
+              </a>
+            </li>
           </ul>
-        </div>
-        <div>
-          <h5 className="font-bold mb-4">Column 3</h5>
-          <ul>
-            <li className="mb-2"><a href="#" className="hover:underline">Link 1</a></li>
-            <li className="mb-2"><a href="#" className="hover:underline">Link 2</a></li>
-            <li className="mb-2"><a href="#" className="hover:underline">Link 3</a></li>
-          </ul>
+          <p className="font-400 text-[16px] mb-[10px]">+234 810 112 8072</p>
+          <p className="font-400 text-[16px] mb-[10px]">Info@Progfams.com</p>
+          <p className="font-400 text-[16px]">
+            10B, Harmony Close, <br />
+            Ikeja, Lagos.
+          </p>
         </div>
       </div>
     </footer>
   );
-}
+};
 
 export default Footer;
