@@ -1,4 +1,3 @@
-import React from 'react';
 import image from "assets/3.png";
 import Button from "components/Button/Medium";
 import Heading from "components/Heading";
