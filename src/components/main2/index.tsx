@@ -10,7 +10,7 @@ const Index = () => {
       <div
         className="relative p-[4px] rounded-[24px]"
         style={{
-          background: 'linear-gradient(to bottom, #FF9900, #072951)',
+          background: "linear-gradient(to bottom, #FF9900, #072951)",
         }}
       >
         <div className="bg-white rounded-[20px] overflow-hidden">
@@ -36,17 +36,19 @@ const Index = () => {
                 mt={"24px"}
                 mb={"48px"}
               >
-                Get the right teams with zero worries for your project every now and
-                then. Get the right teams with zero worries for your project every now
-                and then.
+                Get the right teams with zero worries for your project every now
+                and then. Get the right teams with zero worries for your project
+                every now and then.
               </Text>
-              <div className="grid grid-cols-2 gap-[34px] w-[448px] mb-[48px]">
+              <div className="flex mb-[20px] gap-[34px]">
                 <Button textColor="white" bgColor="#072951">
                   #30,000.00
                 </Button>
                 <Button textColor="white" bgColor="#4393D8">
                   3 months
                 </Button>
+              </div>
+              <div className="flex mb-[48px] gap-[34px]">
                 <Button textColor="white" bgColor="black">
                   Mon-Fri (4pm -6pm)
                 </Button>
@@ -54,13 +56,16 @@ const Index = () => {
                   GoogleMeet
                 </Button>
               </div>
-              <Button
-                textColor={"#072951"}
-                className={"flex align items-center gap-[14px] px-0"}
+              <button
+                className={`flex justify-start items-center gap-[14px] px-0`}
+                style={{
+                  color: "#072951",
+                  fontWeight: 600,
+                }}
               >
-                <FaArrowCircleRight color={"#072951"} />
-                More Details
-              </Button>
+                <FaArrowCircleRight size={"34px"} color={"#072951"} />
+                More details
+              </button>
             </div>
           </div>
         </div>
